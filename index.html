@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doctor</title>
+    <style>
+        .navbar{
+            background-color: none;
+            border-radius: 30px;
+        }
+        .navbar ul {
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 7px;
+            
+           
+        }
+        .navbar li a{
+            padding: 5px;
+            text-decoration: none;
+            color:rgb(20, 19, 17);
+        }
+        .navbar li a:hover{
+            background-color:cadetblue;
+            
+        }
+        .search{
+            float: right;
+            color: black;
+            padding: 5px;
+        }
+        .navbar input{
+            border: 2px solid brown;
+            border-radius: 10px;
+            padding: 3px;
+            width: 145px;
+        }
+       
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url(doctor.jpeg);
+        }
+        h2{
+            text-align: center;
+            color: rgb(159, 85, 91);
+        }
+        h3{
+            text-align: center;
+            color: rgb(159, 85, 91);
+        }
+        h4{
+            text-align: center;
+            color: rgb(159, 85, 91);
+        }
+        .name{
+            text-align: justify;
+            padding: 15px;
+          
+        }
+        .date{
+            text-align: justify;
+            padding: 15px;
+        }
+        .age{
+            text-align: justify;
+            padding: 15px;
+        }
+        .b{
+            text-align: left;
+            color:burlywood;
+        }
+        .sub{
+            padding: 15px;
+          color: azure;
+            
+            
+        }
+        .hello{
+            color: black;
+            text-decoration: none;
+            background-color: azure;
+            border-radius: 2px;
+        }
+        
+            
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <div class="search">
+                   <input type="text" name="search"
+                   id="search" placeholder="search">
+                </div>
+            </ul> 
+            
+        </nav>
+    </header>
+<h2>Hello welcome</h2>
+<H3>Book your appoiment </H3>
+<H4>Fill the form to get appoiment</H4>
+<div class="name">
+Name of patitent :<input type="text" name="name" id="name" placeholder="name ">
+</div>
+<div class="date">
+Date of Birth : <input type="date" name="date" id="date"></div>
+<div class="age">
+Age : <input type="number" name="number" placeholder="Enter your age"></div>
+<div class="gender">
+Gender: male<input type="radio" name="Gender" > Female<input type="radio" name="Gender" >
+</div> 
+<div class="app">
+    <h4 class="b">Book your appoiment</h4>
+<input type="date" name="date" id="date">
+<input type="time" name="time" id="time"></div>
+
+<div class="sub">
+<a href="/submit.html" class="hello"><input type="button" value="submit"></a>
+<input type="button" value="reset"></div>
+<div>
+
+    <footer>
+        <div class="fot">
+            &copy;Samyak khaire 
+        </div>
+    </footer>
+</div>
+</body>
+</html>
